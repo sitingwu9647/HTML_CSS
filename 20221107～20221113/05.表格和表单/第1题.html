@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.c1{
+				color: blue;
+				text-decoration: underline ;
+				text-underline-color: blue;
+				
+			}
+			
+			#i3{
+				background-color: blue;
+				text-align:center;
+				color: white;
+				width: 70px;
+				height: 20px;
+			}
+			#i4{
+				padding-left: 65px;
+			}
+			
+			.c4{
+				width: 50px;
+			}
+			
+			.c5{
+				width: 200px;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		<h2>个人信息</h2>
+		<hr color="red" width="50%" align="left"/>
+		<h3>修改个人信息(*为必填项)</h3>
+		<form>
+			<table>
+			<tr>
+				<td>*姓名：</td>
+				<td><input class="c5" /></td>
+			</tr>
+			<tr>
+				<td>*性别</td>
+				<td><input type="radio" name="sex" />男<input type="radio" name="sex" />女</td>
+			</tr>
+			<tr>
+				<td>*出生日期</td>
+				<td id="i2"><input class="c4" />年<input class="c4" />月</td>
+			</tr>
+			<tr>
+				<td>*参加工作年份</td>
+				<td><select class="c5">
+					<option >无工作经验</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>*户口所在地</td>
+				<td><select class="c5">
+					<option >沈阳</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>*现居住城市</td>
+				<td><select class="c5">
+					<option >沈阳</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>*联系方式</td>
+				<td><input class="c5"/><span class="c1">修改</span></td>
+			</tr>
+			<tr>
+				<td>*电子邮箱</td>
+				<td><input class="c5" /><span class="c1">修改</span></td>
+			</tr>
+			<tr>
+				<td>婚姻状况</td>
+				<td><input type="radio"  />未婚<input type="radio"  />已婚
+				<input type="radio" />离异</td>
+			</tr>
+			<tr>
+				<td>国籍</td>
+				<td><select class="c5">
+					<option >中国大陆</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>海外工作/学习经历</td>
+				<td><input type="radio"  />有<input type="radio"  />无</td>
+			</tr>
+			<tr>
+				<td>政治面貌</td>
+				<td><input type="radio"  />中共党员(含预备党员)<input type="radio"  />团员
+				<input type="radio"  />群众<input type="radio"  />民主党派
+				<input type="radio"  />无党派人士</td>
+			</tr>
+			<tr>
+				<td id="i4">  <div id="i3">保存</div> </td>
+				<td class="c1">返回</td>
+			</tr>
+			</table>
+		</form>
+		
+		
+		
+	</body>
+</html>

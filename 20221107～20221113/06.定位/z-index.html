@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			div{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				left: 100px;
+				top: 100px;
+			}
+			
+			#div1{
+				background-color: red;
+				z-index: 9;    /*z-index值大的层位于其值小的层上方*/
+			}
+			
+			#div2{
+				background-color: yellow;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div id="div1"></div>
+		<div id="div2"></div>
+		
+		
+	</body>
+</html>
