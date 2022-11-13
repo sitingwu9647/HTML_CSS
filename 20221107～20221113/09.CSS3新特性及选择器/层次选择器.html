@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			/*div span{
+				color: red;
+			}*/
+			
+			/*div>p{
+				color: red;
+			}*/
+			
+			/*p+h1{    /*p的紧挨着的兄弟
+				color: red;
+			}*/
+			
+			p~h2{
+				color: red;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!-- 1.后代选择器
+		<div>
+			<span>儿子span</span>
+			<p>
+				<span>孙子span</span> 
+			</p>
+		</div>-->
+		<!-- 2.子选择器 
+		<div>
+			
+			<p>儿子p</p>
+			<h1>  <p>孙子p</p> </h1>
+			
+		</div>-->
+		<!-- 3.相邻兄弟选择器 -->
+		<!--<p>段落</p>
+		<h6>6666</h6>    <!-- 有h6隔着的话就p和h1不紧紧挨着了
+		<h1>第一个标题</h1>
+		<h1>第二个标题</h1>-->
+		<!-- 4.通用选择器：找后面所有的-->
+		<p>段落</p>
+		<h1>dd</h1>
+		<h2>ffff</h2>
+		<h2>ffff</h2>
+		
+	</body>
+</html>

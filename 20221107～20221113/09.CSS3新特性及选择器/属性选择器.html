@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			p[id]  /*有id属性的p标记*/
+			{
+				color: blue;
+			}
+			
+			span[id=s2]{   /*s2加不加引号都行*/
+				font-size: 25px;
+			}
+			
+			.ab{
+				width: 300px;
+			}
+			.cd{
+				height: 300px;
+			}
+			
+			div[class~=cd]{
+				border: 1px black solid;
+			}
+			
+			div[id^=div]
+			{
+				color: red;
+			}
+			
+			div[class$=d]{
+				color: yellow;
+			}
+			
+			div[id*=i]{
+				font-size: 100px;
+			}
+			
+			div[class|=xy]{
+				color: pink;
+				
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<p id="p1">111</p>
+		<p>222</p>
+		<p id="p2">333</p>
+		<span id="s1">aaaa</span>
+		<span id="s2">  &nbsp;&nbsp;&nbsp;&nbsp;  bbbb</span>
+		<input type="password"><input type="password">
+		<div class="ab cd" id="div2">div1</div>   <!-- class属性的ab cd 用空格间隔-->
+		<div id="div3" class="xy-ab">div2</div>
+		
+	</body>
+</html>
