@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>   
+		<!--  ID  >  类 >  标记  同级别：处于最后面的css样式会被应用。 -->
+		<!-- 内联样式表（标签内部）> 嵌入样式表（当前文件中）> 外部样式表（外部文件中）。 （就近原则:谁离他近听谁的）-->
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		
+		<style>
+			p{
+				color: red;
+			}
+			.g{
+				color: green;
+			}
+			#p1{
+				color: yellow;
+			}
+			p{
+				color: blue;  
+			}
+			h1{
+				color: yellow;
+			}
+			
+			
+		</style>
+		
+		
+	</head>
+	<body>
+		<p class="g" id="p1">第一段内容</p>
+		<p>第二段内容</p>
+		<h1 style="color: aqua;">大标题</h1>
+
+	</body>
+</html>
