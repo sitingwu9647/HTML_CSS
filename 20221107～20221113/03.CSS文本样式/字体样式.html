@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.p1{
+				font-family: "隶书";  /* 字体类型 */
+				font-size: 20px;    /* 字体大小 */
+				font-style: normal; /* 字体风格 */  /* 默认值。正常的字体 */
+				font-weight: 100;   /* 字体粗细 */
+			}
+			
+			.p2{
+				font-family: "宋体";
+				font-size: 40px;
+				font-style: italic;/* 斜体对于没有斜体变量的特殊字体，将应用 oblique */
+				font-weight: bold;
+			}
+			
+			#p3{
+				font-family: "黑体";
+				font-size: 60px;
+				font-style: oblique; /* 倾斜的字体 */
+				font-weight: 900;
+			}
+			#p4{
+				font: italic bold 80px "楷体" ;  /* 在一个声明中设置所有字体属性 */
+			}
+			
+			
+		</style>
+		
+	</head>
+	<body>
+		<p class="p1">第一段内容</p>
+		<p class="p2">第二段内容</p>
+		<p id="p3">第三段内容</p>
+		<p id="p4">第四段内容</p>
+	</body>
+</html>
